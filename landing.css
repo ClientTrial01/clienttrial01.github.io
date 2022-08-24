@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    border: 0;
+}
+body {
+    background: linear-gradient(rgb(255, 0, 0)  , rgb(208, 255, 0) , rgb(0, 0, 0));
+    /* background-color: rgb(255, 0, 0); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.page {
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 800px;
+    margin-top: 5%;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.page header .heading img {
+    width: 211px;
+    height: 106px;
+    margin: 15px;
+}
+h2 {
+    font-family: 'Righteous', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    max-width: 600px;
+    align-content: center;
+    display: flex;
+    color: rgb(218, 20, 20);
+    font-weight: 100;
+}
+h3 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 15px;
+    text-align: center;
+}
+footer h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+.flags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flags img {
+    width: 150px;
+    height: 100px;
+    margin: 20px 70px;
+}
+footer .flags h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+footer .flags h4:hover {
+    color: dodgerblue;
+    cursor: pointer;
+}
+.flags img:hover {
+    cursor: pointer;
+}
