@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+* {
+    margin: 0;
+    border: 0;
+}
+body {
+    background-color: rgb(218, 20, 20);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.page {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 5%;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.page header .heading img {
+    width: 211px;
+    height: 106px;
+    margin: 15px;
+}
+h1 {
+    font-family: 'Germania One', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 60px;
+    max-width: 670px;
+    align-content: center;
+    display: flex;
+    color: rgb(230, 19, 19);
+    font-weight: 100;
+}
+.location {
+    color: black;
+}
+h3 {
+    font-family: 'Germania One', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 15px;
+    text-align: center;
+    color: rgb(218, 20, 20);
+}
+div .main-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+main img {
+    width: 750px;
+    margin: 15px;
+}
+footer h4 {
+    font-family: 'Germania One', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    text-transform: uppercase;
+}
+.flags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flags a img {
+    width: 150px;
+    height: 100px;
+    margin: 20px 70px;
+}
+footer .flags a h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    color: dodgerblue;
+    transition: color 0.2s;
+}
+.flags a h4 strong {
+    text-decoration: underline;
+}
+footer .flags a h4:hover {
+    display: block;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.flags a img:hover {
+    cursor: pointer;
+}
+
