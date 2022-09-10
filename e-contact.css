@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) , url(https://upload.wikimedia.org/wikipedia/commons/a/a3/Makedonski_Naroden_Teatar_2013_50.JPG); */
+    background-color: white;
+    background-size: cover;
+}
+header {
+    margin-top: 1%;
+    /* background-color: rgba(255, 255, 255, 0.644); */
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+.nav img {
+    height: 160px;
+    width: 260px;
+    padding: 20px;
+    margin-left: 70px;
+
+}
+/* .nav h1 {
+    font-size: 35px;
+    color: rgb(229, 255, 0);
+    font-family: 'Germania One', sans-serif;
+    font-weight: 300;
+    max-width: 600px;
+    margin: 40px;
+} */
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-bottom: 10px;
+}
+.links a {
+    padding: 5px;
+    margin: 15px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+    text-transform: uppercase;
+    color: #c40404;
+    transition: all 0.3s;
+}
+.links a:hover {
+    color: #029109;
+    font-weight:bold;
+}
+.links a:last-child {
+    margin-right: 7%;
+}
+.links .link3 {
+    color: #029109;
+}
+
+/* IMG SLIDESHOW */
+.border1 {
+    border-style: solid;
+    color: #029109;
+    border-width: 5px;
+    width: fit-content;
+}
+.border2 {
+    border-style: solid;
+    border-width: 10px;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+}
+.border3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.slider {
+    width: 900px;
+    height: 500px;
+    overflow: hidden;
+}
+  
+.slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+  
+.slides input {
+    display: none;
+}
+  
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+  
+.slide img {
+    width: 900px;
+    height: 500px;
+}
+.no-2, .no-4 {
+    display: flex;
+    align-items: center;
+}
+.no-2 .slide img {
+    height: 420px;
+}
+.no-3 .slide img {
+    width: 850px;
+    margin-left: 25px;
+    margin-right: 25px
+}
+.no-4 .slide img {
+    height: 410px;
+}
+.no-5 .slide img {
+    width: 450px;
+    margin-left: 225px;
+    margin-right: 225px;
+}
+
+
+  /* Manual Slides*/
+  
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+  
+.manual-btn {
+    border: 2px solid #ee0505;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+  
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+  
+.manual-btn:hover {
+    background:#bcf71b;
+}
+  
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+  
+#radio2:checked ~ .first {
+    margin-left: -20%;
+}
+  
+#radio3:checked ~ .first {
+    margin-left: -40%;
+}
+  
+#radio4:checked ~ .first {
+    margin-left: -60%;
+}
+
+#radio5:checked ~ .first {
+    margin-left: -80%;
+}
+
+#radio6:checked ~ .first {
+    margin-left: -100%;
+}
+  
+  /*css for automatic navigation*/
+  
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+}
+  
+.navigation-auto div {
+    border: 2px solid #ee0505;
+    padding: 7px;
+    border-radius: 10px;
+    transition: 1s;
+}
+  
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+  
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background: #bcf71b;
+}
+  
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background: #bcf71b;
+}
+  
+#radio3:checked ~ .navigation-auto .auto-btn3{ 
+    background: #bcf71b;
+}
+  
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background: #bcf71b;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5 {
+    background: #bcf71b;
+}
+
+#radio6:checked ~ .navigation-auto .auto-btn6 {
+    background: #bcf71b;
+}
+        
+
+
+/* MAIN */
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+    width: 930px;
+    border-style: solid;
+    border-width: 10px;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    position: center;
+    margin-bottom: 50px;
+}
+main h3 {
+    font-size: 50px;
+    color: #25a32b;
+    font-family: 'Bonheur Royale', cursive;
+    font-weight: 100;
+}
+main p {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: grey;
+    line-height: 1.8em;
+    text-align: justify;
+}
