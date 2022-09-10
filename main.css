@@ -64,21 +64,7 @@ header {
 }
 
 /* IMG SLIDESHOW */
-/* .border1 {
-    border-color: #04b80d;
-    border-style: outset;
-    border-width: 10px;
-    width: 920px;
-    height: 520px;
-} */
-.border2 {
-    border-color: #3a3a3a;
-    border-style:ridge;
-    border-width: 10px;
-    width: 940px;
-    height: 540px;
-}
-.border3 {
+.border1 {
     display: flex;
     justify-content: center;
 }
