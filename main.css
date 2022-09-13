@@ -9,32 +9,43 @@
     box-sizing: border-box;
 }
 body {
-    padding-left: 10%;
-    padding-right: 10%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) , url(https://upload.wikimedia.org/wikipedia/commons/a/a3/Makedonski_Naroden_Teatar_2013_50.JPG);
     background-size: cover;
 }
 header {
     margin-top: 1%;
 }
-.nav {
+span {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-.nav img {
+.nav .mtg-icon {
     height: 160px;
     width: 260px;
     padding: 20px;
-    margin-left: 70px;
+    justify-content:left;
 }
-/* .nav h1 {
-    font-size: 35px;
-    color: rgb(229, 255, 0);
-    font-family: 'Germania One', sans-serif;
-    font-weight: 300;
-    max-width: 600px;
-    margin: 40px;
-} */
+.social-links .email-icon {
+    width: 50px;
+    height: 50px;
+    align-items: right;
+    background-color: grey;
+    margin: 5px;
+}
+.social-links .fb-icon {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    align-items:right;
+    background-color: grey;
+}
+.link-border a {
+    background-color: grey;
+    margin: 5px;
+}
 .links {
     display: flex;
     flex-direction: row;
@@ -58,7 +69,7 @@ header {
     font-weight:bold;
 }
 .links a:last-child {
-    margin-right: 7%;
+    margin-right: 17%;
 }
 .links .link1 {
     color: #029109;
@@ -129,7 +140,7 @@ header {
 }
 
 
-  /* Manual Slides*/
+/* Manual Slides*/
   
 .navigation-manual {
     position: absolute;
@@ -179,7 +190,7 @@ header {
     margin-left: -100%;
 }
   
-  /*css for automatic navigation*/
+/*css for automatic navigation*/
   
 .navigation-auto {
     position: absolute;
@@ -227,7 +238,6 @@ header {
 
 
 /* MAIN */
-
 
 main {
     display: flex;
