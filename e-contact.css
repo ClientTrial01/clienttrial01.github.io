@@ -252,14 +252,21 @@ main {
     position: center;
     margin-bottom: 50px;
     background-color: rgba(255, 255, 255, 0.7);
-
+    font-family: 'Lato', sans-serif;
 }
 main h3 {
-    font-size: 50px;
-    color: #25a32b;
-    font-family: 'Bonheur Royale', cursive;
-    font-weight: 100;
+    font-size: 30px;
+    color: #000000;
+    font-weight: 600;
     margin: 10px 50px;
+    text-align: center;
+}
+main h5 {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+    margin: 20px 0 5px 0;
+    text-align: center;
 }
 main p {
     color: black;
@@ -267,6 +274,9 @@ main p {
     font-weight: 600;
     color: rgb(0, 0, 0);
     line-height: 1.8em;
-    text-align: justify;
+    text-align: center;
     margin: 15px;
+}
+.info {
+    margin: 5px;
 }
