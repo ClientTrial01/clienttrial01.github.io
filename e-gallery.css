@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) , url(https://upload.wikimedia.org/wikipedia/commons/a/a3/Makedonski_Naroden_Teatar_2013_50.JPG);
+    background-size: cover;
+}
+header {
+    margin-top: 1%;
+}
+span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.nav .mtg-icon {
+    height: 160px;
+    width: 260px;
+    padding: 20px;
+    justify-content:left;
+}
+.social-links .email-icon {
+    width: 50px;
+    height: 50px;
+    align-items: right;
+    background-color: grey;
+    margin: 5px;
+}
+.social-links .fb-icon {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    align-items:right;
+    background-color: grey;
+}
+.link-border a {
+    background-color: grey;
+    margin: 5px;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-bottom: 10px;
+}
+.links a {
+    padding: 5px;
+    margin: 15px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+    text-transform: uppercase;
+    color: #c40404;
+    transition: all 0.3s;
+}
+.links a:hover {
+    color: #029109;
+    font-weight:bold;
+}
+.links a:last-child {
+    margin-right: 17%;
+}
+.links .link5 {
+    color: #029109;
+}
+
+main, section, footer {
+    display: flex;
+    justify-content: center;
+}
+.wrapper, .dvd {
+    width: 930px;
+    border-style: solid;
+    border-width: 10px;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    position: center;
+    margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+main h3 {
+    font-size: 50px;
+    color: #25a32b;
+    font-family: 'Bonheur Royale', cursive;
+    font-weight: 100;
+    margin: 10px 50px;
+    text-align: center;
+}
+main p {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    line-height: 1.8em;
+    text-align: justify;
+    margin: 15px;
+}
+
+/* Gallery */
+
+.gallery {
+    width: 930px;
+    border-style: solid;
+    border-width: 10px;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    position: center;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* DVD's */
+
+.spacing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+footer h3 {
+    font-size: 50px;
+    color: black;
+    font-family: 'Bonheur Royale', cursive;
+    font-weight: 600;
+    margin: 50px;
+    text-align: center;
+}
+footer img {
+    margin: 10px 0px;
+    border-width: 8px;
+    border-style: inset;
+    border-color: #029109;
+    cursor: pointer;
+}
+.spacing img {
+    height: 145px;
+    width: auto;
+}
